@@ -1,0 +1,146 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d3b768;
+    color: #333;
+    line-height: 1;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #24273d;
+    font-size: 7em;
+}
+
+header p {
+    font-size: 2.1em;
+    margin-top: 10px;
+}
+
+nav {
+    /* background-color: #201b28; */
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: rgb(44, 43, 43);
+    font-size: 22px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    padding: 20px;
+}
+
+/* Flats Section */
+.flats {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.flat {
+    background: #fff;
+    border: 5px solid #ddd;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.flat h2 {
+    color: #5c6bc0;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Booking Form */
+.booking-form {
+    display: none;
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 700px;
+    margin-top: 50px;
+    text-align: left;
+}
+
+.booking-form h3 {
+    color: #5c6bc0;
+    margin-bottom: 20px;
+}
+
+.booking-form label {
+    font-size: 1em;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.booking-form input {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 3px solid #ddd;
+}
+
+.cancel-btn {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.cancel-btn:hover {
+    background-color: #2b0635;
+}
+footer {
+    background-color: #0f0b2b;
+      color: white;
+      text-align: center;
+      padding: 6px;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+}
